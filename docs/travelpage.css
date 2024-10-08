@@ -29,7 +29,7 @@ li a {
     display: flex;
     flex-direction: column;
     height: 60vh;
-    background-image: url("../images/florence.jpg");
+    background-image: url("images/florence.jpg");
     background-size: cover;
     padding: 15px;
     margin-bottom: 50px;
