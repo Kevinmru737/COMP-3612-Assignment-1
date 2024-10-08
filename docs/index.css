@@ -150,5 +150,22 @@ h1 {
     background-color: #8662C7
 }
 
+@media (max-width: 768px) {
+    .headerbar a {
+        padding: 8px;
+    }
+    .lowerHalf {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .card {
+        width: 100%;
+        object-fit: cover;
+    }
+    
+}
+
 /* styles */
 
