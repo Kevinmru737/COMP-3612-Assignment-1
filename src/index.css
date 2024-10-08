@@ -1,0 +1,154 @@
+html {box-sizing: border-box;}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body, div, h1, ul, li, figure{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+
+.container {
+    min-height: 100%;
+}
+
+figcaption, p, li {
+    padding: 8px;
+}
+
+li a {
+    text-decoration: none;
+    padding: 1.5rem;
+    color: #51279B;
+}
+.upperHalf {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    background-image: url("../images/florence.jpg");
+    background-size: cover;
+    padding: 15px;
+}
+
+/* the logo */
+.headerbar > img {
+    float: left;
+    padding: 5px;
+}
+
+.headerbar ul{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.title li a {
+    padding: none;
+    background-color: #51279B;
+    color: white;
+    border-radius: 3px;
+}
+.title {
+    flex-basis: 100%;
+    color: white;
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+.title > p {
+    font-size: 24px;
+}
+.title > p {
+    padding: 0;
+    padding-bottom: 15px;
+}
+
+.lowerHalf {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}
+.lowerHalf figcaption {
+    font-size: 14px;
+}
+.lowerHalf p {
+    font-size: 12px;
+    margin: 0;
+}
+.lowerHalf ul {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.fa-heart {
+    color: rgb(247, 102, 102);
+}
+.fa-comment {
+    color: #51279B;
+}
+.card {
+    margin: 15px;
+    width: 30%;
+    object-fit: cover;
+    display: inline-block;
+    box-shadow: 2px 2px 2px 2px hsla(0,0%,75%,0.8);
+}
+
+/* Reference: https://dev.to/suyashdev/how-to-make-floating-animation-in-html-css-51da*/
+.card:hover {
+    transform: translateY(-3%);
+    transition: ease 1s;
+}
+/* end of reference code */
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.footer {
+    background-color: #51279B;
+    color: rgb(152, 159, 165);
+    padding: 0 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer ul {
+    display: flex;
+    flex-direction: row;
+}
+.footer a {
+    color: rgb(152, 159, 165);
+}
+
+.footer a:hover {
+    color: rgb(170, 194, 214);
+}
+.headerbar a:hover {
+    color: #8662C7
+}
+.title a:hover {
+    background-color: #8662C7
+}
+
+/* styles */
+

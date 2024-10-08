@@ -1,0 +1,120 @@
+html {box-sizing: border-box;}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body, div, h1, ul, li, figure{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+
+.container {
+    min-height: 100%;
+}
+li {
+    padding: 8px;
+}
+li a {
+    text-decoration: none;
+    padding: 1.5rem;
+    color: #51279B;
+}
+.upperHalf {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    background-image: url("../images/florence.jpg");
+    background-size: cover;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+/* the logo */
+.headerbar > img {
+    float: left;
+    padding: 5px;
+}
+
+.headerbar ul{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.upperHalf figure{
+    display: flex;
+    justify-content: center;
+}
+
+.upperHalf figure img {
+    width: auto%;
+    height: auto%;
+    object-fit: cover;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(205, 163, 236);
+    box-shadow: 4px 4px 4px 4px hsla(0,0%,75%,0.8);;
+    border-radius: 5px;
+    margin: 0 100px 0 100px;
+    padding: 20px;
+}
+.description #latlong {
+    margin-left: 30px;
+    float: right;
+}
+#city {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    float: above;
+}
+.lowerHalf {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}
+.card {
+    margin: 15px;
+}
+
+.fa-heart {
+    color: rgb(247, 102, 102);
+}
+.fa-comment {
+    color: #51279B;
+}
+
+.footer {
+    background-color: #51279B;
+    color: rgb(152, 159, 165);
+    padding: 0 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer ul {
+    display: flex;
+    flex-direction: row;
+}
+.footer a {
+    color: rgb(152, 159, 165);
+}
+
+.footer a:hover {
+    color: rgb(170, 194, 214);
+}
+.headerbar a:hover {
+    color: #8662C7
+}
+.title a:hover {
+    background-color: #8662C7
+}
